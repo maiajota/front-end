@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*! HEADERS */
+
+.big-header{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+.section-header{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*! CONTAINERS */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/*! SECTION TITLE */
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title .navbar{
+    padding: 0 0 4.5rem;
+}
+#title .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#title .navbar .nav-item{
+    padding: 0 18px;
+}
+
+#title .navbar .nav-item .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title .row .download-btn{
+    margin: 5% 3% 5% 0;
+}
+#title .row .title-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/*! SECTION FEATURES */
+
+#features{
+    background-color: #fff;
+}
+
+#features .feature-box{
+    padding: 5%;
+}
+
+#features .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    transition: 0.4s;
+}
+
+#features .icon:hover{
+    color: #ff4c68;
+    transition: 0.4s;
+
+}
+
+#features .features-title{
+    font-size: 1.5rem;
+}
+
+/*! SECTION TESTIMONIAL */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials .testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#testimonials .testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/*! SECTION PRESS */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*! SECTION PRICING */
+
+#pricing{
+    padding: 100px;
+}
+
+#pricing .row .pricing-column{
+    padding: 3% 2%;
+}
+
+#pricing .row .pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing .row .card .pricing-btn{
+    width: 100%;
+}
+
+/*! SECTION CTA */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#cta .cta-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/*! SECTION FOOTER */
+
+#footer .social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    #title .row .title-img{
+        transform: rotate(0);
+    }
+
+}
